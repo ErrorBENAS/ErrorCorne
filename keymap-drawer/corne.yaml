@@ -40,7 +40,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - $$mdi:keyboard-space$$
+  - $$mdi:volume-off$$
   - LGUI
   - lower
   - {t: '$$mdi:keyboard-space$$', h: '3'}
@@ -70,10 +70,10 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - RGB HUI
+  - RGB HUD
+  - RGB SAI
+  - RGB SAD
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
