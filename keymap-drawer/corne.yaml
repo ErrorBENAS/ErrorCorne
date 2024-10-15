@@ -64,7 +64,7 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
+  - Ctl+Alt+ $$mdi:backspace-reverse-outline$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -199,3 +199,5 @@ layers:
 combos:
 - p: [13, 14]
   k: $$mdi:apple-keyboard-caps$$
+- p: [0, 13, 26]
+  k: $$mdi:bluetooth-off$$
