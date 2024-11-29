@@ -63,6 +63,21 @@
             bindings = <&bt BT_CLR>;
             key-positions = <0 13 26>;
         };
+
+        m1 {
+            bindings = <&mkp MB1>;
+            key-positions = <16 17>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <23 24>;
+        };
+
+        baakspace {
+            bindings = <&kp LC(BSPC)>;
+            key-positions = <10 11>;
+        };
     };
 
     keymap {
